@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 80px auto;
+}
+
+.hero {
+  display: flex;
+  background-color: #77cdff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.kanan {
+  margin-left: 100px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+h2 {
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.info {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.info p {
+  text-align: start;
+  padding: 8px;
+}
+
+.info p:nth-child(odd) {
+  background-color: #eaeaea;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: start;
+}
+
+table td input {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+th {
+  background-color: #77cdff;
+  text-align: start;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #eaeaea;
+}
